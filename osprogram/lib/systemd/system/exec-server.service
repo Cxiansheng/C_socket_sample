@@ -1,0 +1,8 @@
+[Unit]
+Description=excute exec-server
+
+[Service]
+ExecStart=/usr/bin/exec-server
+
+[Install]
+WantedBy=multi-user.target

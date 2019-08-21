@@ -1,0 +1,8 @@
+[Unit]
+Description=excute exec-server
+
+[Service]
+ExecStart=/home/lyg/home_work/exec-server/exec-server
+
+[Install]
+WantedBy=multi-user.target

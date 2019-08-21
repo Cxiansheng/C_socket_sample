@@ -1,0 +1,7 @@
+Connected clinet num:1
+
+Client ID:1
+IP ADDRESS:172.20.249.142
+ALL CMD num:2
+Success CMD num:2
+Failed CMD num:0

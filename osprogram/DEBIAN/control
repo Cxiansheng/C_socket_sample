@@ -1,0 +1,8 @@
+Package:lyg-osprogram
+Version:1.0.1
+Section:utils
+Architecture:amd64
+Installed-Size:512
+Maintainer:LYG<liyongguang@ruijie.com.cn>
+Description:the os_programe of LYG
+

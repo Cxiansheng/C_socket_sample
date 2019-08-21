@@ -1,0 +1,8 @@
+show: show.o
+	gcc -o show show.o
+show.o: show.c
+	gcc -c show.c
+
+.PHONY:clean
+clean:
+	rm -f show.o show

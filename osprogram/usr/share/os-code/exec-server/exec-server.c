@@ -328,7 +328,7 @@ void handle_connect(int sock_fd, int type){
     } /* End of while */
 
     for (i = 0 ;i < MAX_CLIENT; ++i){
-        if(client_fd[i]){
+        if(client_fd[i] && client_type[i] == type){
             close(client_fd[i]);
         }
     }

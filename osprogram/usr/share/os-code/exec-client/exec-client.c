@@ -143,7 +143,7 @@ void handle_socket(int sock_fd, char *host){
                     }
                 }
             }
-            else {
+            else if(re == 0){
                 send(sock_fd, shell_cmd, MAX_LEN_CMD, 0);
             }
         } /* End of while */
